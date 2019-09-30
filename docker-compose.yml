@@ -1,0 +1,13 @@
+version: '3'
+services:
+        ravi:
+           image: tomcat
+           container_name: jagga
+           ports: 
+             - "8080:8080"
+        jagadeesh: 
+          image: nginx
+          container_name: raviteja
+          ports:
+            - "80:80"
+
